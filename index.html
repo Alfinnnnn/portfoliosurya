@@ -119,53 +119,37 @@
       </section>
       <!-- /Hero Section -->
 
-      <!-- About Section -->
-      <section id="about" class="about section">
+     <!-- About Section -->
+      <section id="about" class="about section" style="width: 90%; max-width: 1200px; margin: auto;">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>About</h2>
           <p style="text-align: justify">
-            A Computer Science graduate from Universitas Pendidikan Indonesia. I
-            am deeply passionate about data analysis, data science and business
-            intelligence. My expertise in data visualization tools like Google
-            Looker Studio and Microsoft Power BI allows me to transform complex
-            datasets into meaningful, actionable insights. Additionally, I have
-            a foundational understanding of various programming languages,
-            including C, SQL, R, and Python, which further strengthens my
-            ability to approach data-driven problem solving. I am committed to
-            utilizing technology to tackle real-world challenges and drive
-            innovation, eager to contribute my skills to forward-thinking
-            projects that enable data-informed decision-making and deliver
-            impactful results.
+            A Computer Science graduate from Universitas Pendidikan Indonesia. I am deeply passionate about data analysis, data science and business intelligence. My expertise in data visualization tools like Google Looker Studio and Microsoft Power BI allows me to transform complex datasets into meaningful, actionable insights. Additionally, I have a foundational understanding of various programming languages, including C, SQL, R, and Python, which further strengthens my ability to approach data-driven problem solving. I am committed to utilizing technology to tackle real-world challenges and drive innovation, eager to contribute my skills to forward-thinking projects that enable data-informed decision-making and deliver impactful results.
           </p>
         </div>
         <!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4 justify-content-center">
-            <div class="col-lg-4">
-              <img style="height: auto; width: 70%; "
-                src="assets/img/profile-removebg.png"
-                class="img-fluid"
-                alt=""
-              />
+          <div class="row gy-4 justify-content-center align-items-center" style="display: flex; flex-wrap: wrap;">
+            <div class="col-lg-4" style="display: flex; justify-content: center;">
+              <img style="height: auto; width: 70%; max-width: 250px; border-radius: 10px;" src="assets/img/profile-removebg.png" class="img-fluid" alt="Profile Picture" />
             </div>
-            <div class="col-lg-8 content">
+            <div class="col-lg-8 content" style="flex: 1;">
               <h2>Data Analyst &amp; Data Scientist.</h2>
               <p class="fst-italic py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                I am a data enthusiast, especially in the field of data analyst and data science. Familiar with BI tools such as Google Looker Studio and Ms. Power BI.
               </p>
               <div class="row">
                 <div class="col-lg-6">
                   <ul>
                     <li>
                       <i class="bi bi-chevron-right"></i>
-                      <strong>Website:</strong> <span>www.example.com</span>
+                      <strong>Website:</strong> <span><a href="https://suryaalfinportof.vercel.app/">Portofolioweb</a></span>
                     </li>
                     <li>
                       <i class="bi bi-chevron-right"></i>
-                      <strong>Phone:</strong> <span>085156734563</span>
+                      <strong>Phone:</strong> <span><a href="http://wa.me//085156734563">085156734563</a></span>
                     </li>
                     <li>
                       <i class="bi bi-chevron-right"></i>
@@ -186,7 +170,7 @@
                     <li>
                       <i class="bi bi-chevron-right"></i>
                       <strong>Email:</strong>
-                      <span>surya.alvin33@gmail.com</span>
+                      <span></span><a href="mailto:surya.alvin33@gmail.com">surya.alvin33@gmail.com</a></span>
                     </li>
                     <li>
                       <i class="bi bi-chevron-right"></i>
@@ -200,6 +184,25 @@
         </div>
       </section>
       <!-- /About Section -->
+
+      <style>
+        @media (max-width: 768px) {
+          #about .row {
+            flex-direction: column;
+            text-align: center;
+          }
+          #about .col-lg-4 {
+            order: 1; /* Pindahkan gambar ke atas */
+          }
+          #about .col-lg-8 {
+            order: 2;
+          }
+          #about img {
+            width: 50%; /* Membuat gambar lebih kecil */
+          }
+        }
+      </style>
+
 
       <!-- Skills Section -->
       <section id="skills" class="skills section light-background">
@@ -399,6 +402,53 @@
                 </ul>
               </div>
             </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="resume-title">Certification and Badges</h3>
+              <div class="resume-item">
+                <h4>Azure Data Fundamentals Certification</h4>
+                <h5>Certification</h5>
+                <h5>2022 - now</h5>
+                <p><em>Microsoft</em></p>
+                <a href="https://www.credly.com/badges/327ef8b5-bd01-4431-adcc-da520d67b424/public_url"><p>Certification Link</p></a>
+              </div>
+              <div class="resume-item">
+                <h4>Microsoft Office Specialist: Word 2019 Association</h4>
+                <h5>Certification</h5>
+                <h5>2023 - now</h5>
+                <p><em>Microsoft</em></p>
+                <a href="https://www.credly.com/badges/91628076-e5a7-4fb3-a3a6-2d7440a16bd9/public_url"><p>Certification Link</p></a>
+              </div>
+              <div class="resume-item">
+                <h4>Prepare Data for ML APIs on Google Cloud</h4>
+                <h5>Skill badges</h5>
+                <h5>2024 - now</h5>
+                <p><em>Google Cloud</em></p>
+                <a href="https://www.credly.com/badges/4723695b-1be7-4d1f-a825-d848ff5ce15a/public_url"><p>Certification Link</p></a>
+              </div>
+              <div class="resume-item">
+                <h4>Set Up an App Dev Environment</h4>
+                <h5>Skill badges</h5>
+                <h5>2024 - now</h5>
+                <p><em>Google Cloud</em></p>
+                <a href="https://www.credly.com/badges/58e2e409-3993-41cc-862c-c25199b7550a/public_url"><p>Certification Link</p></a>
+              </div>
+              <div class="resume-item">
+                <h4>Google Cloud Computing Foundations Certificate</h4>
+                <h5>Skill badges</h5>
+                <h5>2024 - now</h5>
+                <p><em>Google Cloud</em></p>
+                <a href="https://www.credly.com/badges/3abcc94b-2554-4b81-abdc-944eedfee197/public_url"><p>Certification Link</p></a>
+              </div>
+              <div class="resume-item">
+                <h4>Build a Secure Google Cloud Network</h4>
+                <h5>Skill badges</h5>
+                <h5>2024 - now</h5>
+                <p><em>Google Cloud</em></p>
+                <a href="https://www.credly.com/badges/7a36d27b-c3ad-4ed3-b603-d3e903ab1ba5/public_url"><p>Certification Link</p></a>
+              </div>
+            </div>
+
           </div>
         </div>
         
@@ -588,41 +638,56 @@
       <!-- /Portfolio Section -->
 
       <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <div class="container" style="width: 90%; max-width: 1200px;">
-          <div class="container section-title" data-aos="fade-up">
-            <h2>Contact</h2>
+      <section id="contact" class="contact section" style="width: 90%; max-width: 1200px; margin: auto;">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="info-wrap" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; width: 100%; gap: 20px; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+          
+          <div class="info-item" style="display: flex; align-items: center; gap: 10px; text-align: left; flex: 1 1 20px; max-width: 100%;">
+            <i class="bi bi-geo-alt" style="font-size: 24px; color: #007bff;"></i>
+            <div>
+              <h3 style="margin: 0; font-size: 18px; font-weight: bold;">Address</h3>
+              <p style="margin: 0; font-size: 16px; color: #333;">Ciamis, West Java, Indonesia</p>
+            </div>
           </div>
 
-          <div class="info-wrap" style="display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 20px; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-            
-            <div class="info-item" style="display: flex; align-items: center; gap: 10px; text-align: justify;">
-              <i class="bi bi-geo-alt" style="font-size: 24px; color: #007bff;"></i>
-              <div>
-                <h3 style="margin: 0; font-size: 18px; font-weight: bold;">Address</h3>
-                <p style="margin: 0; font-size: 16px; color: #333;">Ciamis, West Java, Indonesia</p>
-              </div>
+          <div class="info-item" style="display: flex; align-items: center; gap: 10px; text-align: left; flex: 1 1 20px; max-width: 100%;">
+            <i class="bi bi-telephone" style="font-size: 24px; color: #007bff;"></i>
+            <div>
+              <h3 style="margin: 0; font-size: 18px; font-weight: bold;">Call</h3>
+              <a href="http://wa.me//085156734563" style="margin: 0; font-size: 16px; color: #333; text-decoration: none;">+62 851 5673 4563</a>
             </div>
+          </div>
 
-            <div class="info-item" style="display: flex; align-items: center; gap: 10px; text-align: justify;">
-              <i class="bi bi-telephone" style="font-size: 24px; color: #007bff;"></i>
-              <div>
-                <h3 style="margin: 0; font-size: 18px; font-weight: bold;">Call</h3>
-                <a href="http://wa.me//085156734563" style="margin: 0; font-size: 16px; color: #333; text-decoration: none;">+62 851 5673 4563</a>
-              </div>
+          <div class="info-item" style="display: flex; align-items: center; gap: 10px; text-align: left; flex: 1 1 20px; max-width: 100%;">
+            <i class="bi bi-envelope" style="font-size: 24px; color: #007bff;"></i>
+            <div>
+              <h3 style="margin: 0; font-size: 18px; font-weight: bold;">Email</h3>
+              <a href="mailto:surya.alvin33@gmail.com" style="margin: 0; font-size: 16px; color: #333; text-decoration: none;">surya.alvin33@gmail.com</a>
             </div>
-
-            <div class="info-item" style="display: flex; align-items: center; gap: 10px; text-align: justify;">
-              <i class="bi bi-envelope" style="font-size: 24px; color: #007bff;"></i>
-              <div>
-                <h3 style="margin: 0; font-size: 18px; font-weight: bold;">Email</h3>
-                <a href="mailto:surya.alvin33@gmail.com" style="margin: 0; font-size: 16px; color: #333; text-decoration: none;">surya.alvin33@gmail.com</a>
-              </div>
-            </div>
-
           </div>
         </div>
       </section>
+
+      <style>
+        @media (max-width: 768px) {
+          #contact .info-wrap {
+            flex-direction: column;
+            align-items: stretch;
+            text-align: center;
+            gap: 10px; /* Mengurangi jarak antar item */
+          }
+          #contact .info-item {
+            justify-content: center;
+            flex: 1 1 auto;
+            padding: 10px 0; /* Memberikan sedikit padding untuk keseimbangan */
+          }
+        }
+      </style>
+
+
 
     </main>
 
